@@ -4,7 +4,7 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <footer className="text-xl">here will be the Footer</footer>
+    <footer className="w-screen flex justify-center text-xl">here will be the Footer</footer>
   )
 }
 

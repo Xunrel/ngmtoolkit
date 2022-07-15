@@ -4,7 +4,7 @@ type HeaderProps = {}
 
 const Header = (props: HeaderProps) => {
   return (
-    <header className="text-xl">This will be the Header section</header>
+    <header className="w-screen flex justify-center text-xl">This will be the Header section</header>
   )
 }
 
