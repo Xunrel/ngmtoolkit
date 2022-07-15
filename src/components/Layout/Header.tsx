@@ -4,9 +4,7 @@ type HeaderProps = {}
 
 const Header = (props: HeaderProps) => {
   return (
-    <div id="header">
-        
-    </div>
+    <header className="text-xl">This will be the Header section</header>
   )
 }
 
