@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 const Home: NextPage = () => {
+  const k = "kilian"
   return (
     <>
       <Head>
@@ -12,7 +13,9 @@ const Home: NextPage = () => {
 
       <div className="w-screen h-screen flex flex-col justify-center items-center p-4">
         <h2 className="text-[3rem] lg:text-[5rem] md:text-[5rem] font-extrabold text-gray-700">
-          Create <span className="text-purple-300">T3</span> App
+          <span className="text-purple-300">
+          {k.toUpperCase()}
+          </span>
         </h2>
         <p className="text-2xl text-gray-700">This stack uses</p>
         <div className="grid grid-cols-1 grid-rows-3 lg:grid-rows-1 md:grid-rows-1 lg:grid-cols-3 md:grid-cols-3 gap-3 mt-3 pt-3 w-full lg:w-2/3 md:w-full">
